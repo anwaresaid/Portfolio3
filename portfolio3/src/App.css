@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
 
 :root{
-  --primary-drak:rgba(255,255,255,0);
+  --primary-drak:rgb(58,58,64);
+  --primary-light-gray:#f4f4f4;
 }
 
 body{
@@ -157,4 +158,60 @@ About me */
   .profile-img{
     width: 10rem;
   }
+}
+/* 
+service */
+
+.services{
+  text-align: center;
+  padding-bottom: 2rem;
+  background-color:var(--primary-light-gray) ;
+}
+
+.services h1{
+  color:var(--primary-drak);
+  text-transform: uppercase;
+}
+.services .circle{
+  position:relative;
+  margin:0.375rem auto;
+  background-color: lightblue;
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.services .iconsser{
+
+  font-size:1.4rem;
+  color:white;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.services .box{
+  height:16rem;
+  border-bottom: 0.3125rem solid lightblue;
+  padding:0.625rem;
+  margin-bottom: 1.875rem;
+  background: white;
+}
+
+.services .box:hover{
+  background: lightblue;
+  border-bottom: 0.3125rem solid var(--primary-drak);
+}
+
+.services .box:hover .iconsser{
+  color: var(--primary-drak);
+}
+
+.services .box:hover .circle{
+  background: white;
+}
+
+.services .box:hover p{
+  color:white;
 }

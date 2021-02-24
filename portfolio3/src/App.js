@@ -4,6 +4,9 @@ import Header from './components/Header';
 import Particles, { ShapeType } from 'react-particles-js';
 import Navbar from './components/Navbar';
 import About from './components/Aboutme';
+import Service from './components/Services';
+
+
 function App() {
   return (
     <div className="App">
@@ -32,6 +35,7 @@ function App() {
       <Navbar/>
       <Header/>
       <About/>
+      <Service/>
     </div>
   );
 }
