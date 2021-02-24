@@ -513,3 +513,28 @@ input:focus+.line, textarea:focus+.line{
   transition: width 0.5s ease-in-out;
 
 }
+
+/* 
+FOOTER */
+
+.footer{
+  background: black;
+  color: var(--primary-dark-gray);
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--primary-dark-gray);
+  
+}
+.footer a:hover{
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+
+}
+
+.footer p{
+  margin-bottom: 0;
+}

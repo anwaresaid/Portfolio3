@@ -9,6 +9,7 @@ import About from './components/Aboutme';
 import Service from './components/Services';
 import Exp from './components/Experience';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -41,6 +42,7 @@ function App() {
       <Exp/>
       <Port/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
