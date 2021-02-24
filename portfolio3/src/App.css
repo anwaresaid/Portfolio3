@@ -198,6 +198,7 @@ service */
   padding:0.625rem;
   margin-bottom: 1.875rem;
   background: white;
+  transition: 0.3s ease-in-out;
 }
 
 .services .box:hover{
@@ -306,5 +307,106 @@ experience */
     float:none;
     direction:ltr;
     width:100%;
+  }
+}
+
+/* 
+portfolio  */
+
+.portfolio-wrapper{
+  background: var(--primary-light-gray);
+  padding:3rem 0;
+}
+
+.portfolio-wrapper h1{
+  color: orange;
+  
+}
+.port-img{
+  width: 15rem;
+  border: 1px solid orange;
+  padding:0 0.5rem;
+  height: 8rem;
+}
+
+.port-img-box{
+  position: relative;
+  margin:1rem;
+
+}
+
+.overflow{
+  position:absolute;
+  opacity:0;
+  background:black;
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid red;
+  cursor:pointer;
+}
+
+.port-img-box:hover .overflow{
+  opacity:60%;
+  transition: 0.3s ease-in-out;
+}
+
+.port-icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color:orange;
+  font-size: 1.5rem;
+}
+
+.port-img-box:hover .port-icon{
+  opacity: 70%;
+  transition: 0.3s ease-in-out ;
+  cursor: pointer;
+} 
+
+/* 
+popup */
+
+.port-img-popup{
+  width:45rem;
+  padding:0 0.5rem;
+}
+
+.hyper-link{
+  cursor: pointer;
+  color: orange;
+}
+
+.hyper-link:hover{
+  color: red;
+}
+
+
+@media(max-width:768px){
+  .port-img-popup{
+    width:100%;
+
+  }
+}
+
+@media(max-height:500px){
+  .popupbox-wrapper{
+    height: 100%  !important;
+  }
+  .port-img-popup{
+    width:60%;
+    
+  }
+}
+
+@media(max-height:280px){
+  .popupbox-wrapper{
+    height: 90%  !important;
+  }
+  .port-img-popup{
+    width:30%;
+    
   }
 }

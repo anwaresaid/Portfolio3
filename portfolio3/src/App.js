@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles, { ShapeType } from 'react-particles-js';
 
-
+import Port from './components/Portfolio'
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import About from './components/Aboutme';
@@ -38,6 +38,7 @@ function App() {
       <About/>
       <Service/>
       <Exp/>
+      <Port/>
     </div>
   );
 }
