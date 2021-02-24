@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import About from './components/Aboutme';
 import Service from './components/Services';
 import Exp from './components/Experience';
+import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
@@ -39,6 +40,7 @@ function App() {
       <Service/>
       <Exp/>
       <Port/>
+      <Contact/>
     </div>
   );
 }
