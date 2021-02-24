@@ -1,12 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
 import Particles, { ShapeType } from 'react-particles-js';
+
+
+import Header from './components/Header';
 import Navbar from './components/Navbar';
 import About from './components/Aboutme';
 import Service from './components/Services';
-
-
+import Exp from './components/Experience';
 function App() {
   return (
     <div className="App">
@@ -36,6 +37,7 @@ function App() {
       <Header/>
       <About/>
       <Service/>
+      <Exp/>
     </div>
   );
 }

@@ -7,7 +7,7 @@ const Services = () => {
             <h1 className="py-5"> my services</h1>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                             <div className="circle" ><FontAwesomeIcon className="iconsser" icon={faMobileAlt} size='2x'/></div>
                                 <h3>Mobile app development</h3>
@@ -15,7 +15,7 @@ const Services = () => {
                             </div>
                         </div>
                         {/* - */}
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                                 <div className="circle" ><FontAwesomeIcon className="iconsser" icon={faDesktop} size='2x'/></div>
                                 <h3>web design</h3>
@@ -23,7 +23,7 @@ const Services = () => {
                             </div>
                         </div>
                         {/* - */}
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="box">
                             <div className="circle" ><FontAwesomeIcon className="iconsser" icon={faFileCode} size='2x'/></div>
                                 <h3>web development</h3>
