@@ -1,9 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
 import Particles, { ShapeType } from 'react-particles-js';
 
+import Port from './components/Portfolio'
+import Header from './components/Header';
 import Navbar from './components/Navbar';
+import About from './components/Aboutme';
+import Service from './components/Services';
+import Exp from './components/Experience';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -31,6 +37,12 @@ function App() {
 
       <Navbar/>
       <Header/>
+      <About/>
+      <Service/>
+      <Exp/>
+      <Port/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
