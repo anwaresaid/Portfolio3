@@ -221,10 +221,10 @@ const Portfolio = () => {
               
             <PopupboxContainer {...popupboxconfigport1}/>
             <PopupboxContainer {...popupboxconfigport2}/>
-            <PopupboxContainer {...popupboxconfigport3}/>
             <PopupboxContainer {...popupboxconfigBoxing}/>
             <PopupboxContainer {...popupboxconfigschool}/>
             <PopupboxContainer {...popupboxconfigHurdles}/>
+            <PopupboxContainer {...popupboxconfigport3}/>
               
             </div>               
             
