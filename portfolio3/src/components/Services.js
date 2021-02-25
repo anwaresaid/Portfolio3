@@ -1,9 +1,9 @@
 import React from 'react'
-import { faDesktop,faFileCode,faMobileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faDesktop,faFileCode,faMobileAlt,faGamepad } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Services = () => {
     return (
-        <div className="services">
+        <div id="services" className="services">
             <h1 className="py-5"> my services</h1>
                 <div className="container">
                     <div className="row">
@@ -20,6 +20,14 @@ const Services = () => {
                                 <div className="circle" ><FontAwesomeIcon className="iconsser" icon={faDesktop} size='2x'/></div>
                                 <h3>web design</h3>
                                 <p> proffessional looking websites with clean and modern look.</p>
+                            </div>
+                        </div>
+                         {/* - */}
+                         <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="box">
+                                <div className="circle" ><FontAwesomeIcon className="iconsser" icon={faGamepad} size='2x'/></div>
+                                <h3>Game Development</h3>
+                                <p> A good game designer learns how to look at a problem from different perspectives so they can navigate around the wall in a new, uncommon way.</p>
                             </div>
                         </div>
                         {/* - */}

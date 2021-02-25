@@ -50,7 +50,7 @@ nav ul li{
 }
 
 
-.navbar-nav > li> a.active,  .navbar-nav > li> a.active:focus{
+  .navbar-nav > li> a:focus{
   border-top: 0.18rem solid orange;
 }
 
@@ -373,6 +373,7 @@ popup */
   width:45rem;
   padding:0 0.5rem;
 }
+
 
 .hyper-link{
   cursor: pointer;

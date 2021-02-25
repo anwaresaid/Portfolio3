@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
     return (
-        <div className="experience">
+        <div id="experience" className="experience">
             <div className="d-flex justify-content-center my-5">
                 <h1 >Experience</h1>
             </div>
@@ -29,15 +29,8 @@ const Experience = () => {
                         <div className="marker">
                         </div>
                         <div className="timeline-content">
-                            <h3>left</h3>
-                            <p>I worked on the software functionality of the company’s enterprise warehouse management application.
-                            
-                              My responsibility was primarily to debug and add various new features into the existing
-                                application. Much of the work was done in .Net Framework.
-                            
-                            
-                                 I worked on the development of a new application that aims to cut out the middleman in the
-                                Software-Support process and handles much of the queries and diagnostics automatically. 
+                            <h3>2020-2021</h3>
+                            <p>Worked on my own, built three websites focusing on different aspects of web development and helped in building small game using kinect.
                             </p>
                         </div>
                 </div>
